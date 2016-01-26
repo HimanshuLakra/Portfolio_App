@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:scrollbars="none"
+    tools:context="com.udacity.portfolioapp.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="35dp">
+
+        <TextView
+            android:id="@+id/myText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:fontFamily="sans-serif"
+            android:text="@string/textView"
+            android:textSize="23sp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="10dp">
+
+            <Button
+                android:id="@+id/spotifyStreamer"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="46dp"
+                android:background="#F08C35"
+                android:fontFamily="sans-serif"
+                android:padding="16dp"
+                android:text="@string/spotify"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/scoresApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#F08C35"
+                android:fontFamily="sans-serif"
+                android:padding="16dp"
+                android:text="@string/score"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/libraryApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_weight="1"
+                android:background="#F08C35"
+                android:fontFamily="sans-serif"
+                android:padding="16dp"
+                android:text="@string/library"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/buildIt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#F08C35"
+                android:fontFamily="sans-serif"
+                android:padding="16dp"
+                android:text="@string/bulid"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/xyzReader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#F08C35"
+                android:fontFamily="sans-serif"
+                android:padding="16dp"
+                android:text="@string/xyz"
+                android:textAllCaps="true" />
+
+            <Button
+                android:id="@+id/capstone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:background="#e91e63"
+                android:fontFamily="sans-serif"
+                android:padding="20dp"
+                android:text="@string/capstone"
+                android:textAllCaps="true"
+                android:textColor="#ffffff" />
+        </TableLayout>
+    </LinearLayout>
+</ScrollView>
+
